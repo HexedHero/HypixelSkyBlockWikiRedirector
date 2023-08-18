@@ -2,7 +2,7 @@
 	
 	"name": "Hypixel SkyBlock Wiki Redirector",
 	"author": "HexedHero",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Redirects you to the new Hypixel Skyblock Wiki!",
 	"manifest_version": 3,
 
@@ -15,23 +15,23 @@
 	"permissions":
 	[
 
-        "webNavigation"
+		"webNavigation"
 
 	],
 	"host_permissions":
 	[
 
-      	"*://hypixel-skyblock.fandom.com/*",
-      	"*://hypixel-skyblock.wikia.com/*"
+		"*://hypixel-skyblock.fandom.com/*",
+		"*://hypixel-skyblock.wikia.com/*"
 
 	],
 	"icons":
-	{ 
+	{
 
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
 
-    }
+	}
 	
 }

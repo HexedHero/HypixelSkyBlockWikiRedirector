@@ -1,37 +1,37 @@
 {
-	
-	"name": "Hypixel SkyBlock Wiki Redirector",
-	"author": "HexedHero",
-	"version": "1.0.1",
-	"description": "Redirects you to the new Hypixel Skyblock Wiki!",
-	"manifest_version": 3,
+    
+    "name": "Hypixel SkyBlock Wiki Redirector",
+    "author": "HexedHero",
+    "version": "1.0.1",
+    "description": "Redirects you to the new Hypixel Skyblock Wiki!",
+    "manifest_version": 3,
 
-	"background":
-	{
+    "background":
+    {
 
-		"service_worker": "background.js"
+        "service_worker": "background.js"
 
-	},
-	"permissions":
-	[
+    },
+    "permissions":
+    [
 
-		"webNavigation"
+        "webNavigation"
 
-	],
-	"host_permissions":
-	[
+    ],
+    "host_permissions":
+    [
 
-		"*://hypixel-skyblock.fandom.com/*",
-		"*://hypixel-skyblock.wikia.com/*"
+        "*://hypixel-skyblock.fandom.com/*",
+        "*://hypixel-skyblock.wikia.com/*"
 
-	],
-	"icons":
-	{
+    ],
+    "icons":
+    {
 
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
 
-	}
-	
+    }
+    
 }

@@ -18,8 +18,10 @@
 
       }
 
+      const redirectToMainPage = url.pathname.includes("/Hypixel_SkyBlock_Wiki");
+
       // Make the new URL
-      const redirectUrl = `https://wiki.hypixel.net${url.pathname.replace(/^\/wiki\//i,"/")}`;
+      const redirectUrl = redirectToMainPage ? `https://wiki.hypixel.net/Main_Page` : `https://wiki.hypixel.net${url.pathname.replace(/^\/wiki\//i,"/")}`;
 
       // Redirect
       chrome.tabs.update(info.tabId, {url:redirectUrl});

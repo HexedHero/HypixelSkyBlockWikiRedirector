@@ -1,4 +1,5 @@
-(function(){
+(function()
+{
 
   const OLDWIKI_REGEX = /^hypixel-skyblock\.(wikia|fandom)\.com$/i;
 
@@ -17,11 +18,11 @@
 
       }
 
-      // Make new URL
+      // Make the new URL
       const redirectUrl = `https://wiki.hypixel.net${url.pathname.replace(/^\/wiki\//i,"/")}`;
 
       // Redirect
-      chrome.tabs.update(info.tabId,{url:redirectUrl});
+      chrome.tabs.update(info.tabId, {url:redirectUrl});
 
     }
 
